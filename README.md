@@ -21,7 +21,6 @@ Website implements the functioning of login authentication using jwt token and U
 
 -    **Home Page**
 
-<img src="https://res.cloudinary.com/dzz32ksnf/image/upload/v1684359867/Screenshot_10125_qqk98z.png" alt="Home page" />
 
 -->
 
