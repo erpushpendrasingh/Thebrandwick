@@ -34,11 +34,6 @@ Install the project with Vs Code
 
 ## Run Locally
 
-Clone the project
-
-```bash
-  git clone https://github.com/erpushpendrasingh/Production-Doctor-Appointment-System/tree/main
-```
 
 Open vs-code terminal
 
