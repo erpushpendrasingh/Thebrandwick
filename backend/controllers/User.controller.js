@@ -44,35 +44,6 @@ const signUpUser = async (req, res) => {
   }
 };
 
-// const loginUser = async (req, res) => {
-//   const { email, password } = req.body;
-//   try {
-//     const user = await UserModel.find({ email });
-
-//     const hased_pass = user[0]?.password;
-//     if (user.length > 0) {
-//       bcrypt.compare(password, hased_pass, (err, result) => {
-//         console.log("err", err);
-//         if (result) {
-//           const token = jwt.sign({ userID: user[0]?._id }, process.env.key);
-//           res.send({ message: "Login Successful", token: token });
-//         } else {
-//           return res.status(400).json({
-//             error: err,
-//             message: "Wrong Credentials",
-//           });
-//         }
-//       });
-//     } else {
-//       res.status(400).json({
-//         error: err,
-//         message: "No user exists with this email id",
-//       });
-//     }
-//   } catch (error) {
-//     res.status(400).json({ error: error.message });
-//   }
-// };
 const loginUser = async (req, res) => {
      const { email, password } = req.body;
      try {
@@ -82,10 +53,9 @@ const loginUser = async (req, res) => {
           if (user.length > 0) {
                bcrypt.compare(password, hashed_pass, (err, result) => {
                     if (result) {
-                         // Set token expiration (e.g., 1 hour)
-                         const expiresIn = 60 * 60; // 1 hour in seconds
+                         const expiresIn = 60 * 60; 
 
-                         // Sign the token with expiresIn option
+                       
                          const token = jwt.sign(
                               { userID: user[0]?._id },
                               process.env.key,
