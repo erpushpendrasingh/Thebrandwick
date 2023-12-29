@@ -1,0 +1,46 @@
+export const style = {
+  navbar: {
+    height: "50px",
+    display: "flex",
+    backgroundColor: "Tomato",
+  },
+  navbtn: {
+    width: "250px",
+    display: "flex",
+    justifyContent: "space-between",
+    padding: "10px",
+    alignItems: "center",
+    textDecoration: "none",
+  },
+  input: {
+    width: "80%",
+    height: "25px",
+    borderRadius: "5px",
+    border: "1px solid #ccc",
+    padding: "5px",
+    margin: "10px",
+  },
+  btn: {
+    height: "35px",
+    margin: "10px",
+    width: "100px",
+    borderRadius: "5px",
+    backgroundColor: "tomato",
+  },
+  formDiv: {
+    width: "400px",
+    height: "auto",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    margin: "auto",
+    justifyContent: "space-around",
+    borderRadius: "10px",
+    boxShadow: "0 3px 10px rgb(0 0 0 / 0.2)",
+  },
+  errDiv: {
+    color: "red",
+    fontWeight: "bold",
+    margin: "10px",
+  },
+};

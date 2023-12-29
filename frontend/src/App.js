@@ -6,7 +6,7 @@ function App() {
      return (
           <div className="App">
                <Navbar />
-               <h1>APP</h1>
+               <h1>The Brand Wick App</h1>
                <MainRoutes />
           </div>
      );
