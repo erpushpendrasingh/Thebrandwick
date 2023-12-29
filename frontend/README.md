@@ -15,7 +15,7 @@ Website implements the functioning of login authentication using jwt token and U
 
 ## Demo
 
-- Live Demo : https://the-brandwick.netlify.app/ 
+-    Live Demo : https://the-brandwick.netlify.app/
 
 ## Screenshots
 
@@ -23,7 +23,7 @@ Website implements the functioning of login authentication using jwt token and U
 
 <img src="https://res.cloudinary.com/dzz32ksnf/image/upload/v1684359867/Screenshot_10125_qqk98z.png" alt="Home page" />
 
- -->
+-->
 
 ## Installation
 
